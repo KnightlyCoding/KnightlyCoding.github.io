@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid white;
+}
+
+.nav-link {
+    margin-right: 140px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    height: 30px;
+    width: 170px;
+    background-color: #090909;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+nav #knightly-coding {
+    width: 450px;
+    background-color: inherit;
+    text-align: left;
+}
+
+nav #selected {
+    color: green;
+    background-color: inherit;
+}
+
+main {
+    margin-top: 70px;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.project {
+    width: 260px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: table-cell;
+    padding: 10px;
+}
+
+table {
+    border-spacing: 40px;
+    margin-left: -40px;
+}
