@@ -66,3 +66,16 @@ table {
     border-spacing: 40px;
     margin-left: -40px;
 }
+
+.project a {
+    text-decoration-color: white;
+}
+
+.project h1 {
+    color: green;
+}
+
+main a {
+    text-decoration-color: white;
+    color: green;
+}
